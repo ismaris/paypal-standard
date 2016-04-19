@@ -16,13 +16,6 @@ require('_include/header.html');
 					<div id="section0" >
 						<div class="field" id="usernameField"><label for="CC">Username:</label><input type="text" id="CC" name="CC" disabled="disabled" size="15" value="<? echo $_SESSION['user'];?>"</input></div>
 						<div class="field"><label for="CC">Email:</label><input type="text" id="CC" name="CC" size="15" placeholder="johndoe@indiana.edu"></div>
-						<div class="field"><label for="Options">Sample Drop Down</label>
-								<select id="Options" required>
-									<option value="Empty">Select Option...</option>
-									<option value="Linux">Option 1</option>
-									<option value="Windows">Option 2</option>
-								</select>
-						</div>
 						<div class="col_3">
 							<input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="PT5BKM7BJLF5U">
@@ -33,6 +26,7 @@ require('_include/header.html');
 				</div>	
             </form>
             </div>	
+            <p><a href="https://github.com/ismaris/paypal-standard.git">Source Code on Github</a></p><br />
         </div>
         <div class="row">
             <div class="col_12">&nbsp;</div>
