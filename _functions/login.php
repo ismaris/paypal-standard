@@ -1,6 +1,6 @@
 <?php
 session_start();
-$site='https://paypal.ismaris.com/paypal-standard/';
+$site='https://paypal.scott-mann.net/paypal-standard/';
 $login=$site.'_functions/login.php';
 
 $CAS = $_SESSION['CAS'];

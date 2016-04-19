@@ -1,7 +1,7 @@
 <?
 // Store to session
 session_start();
-$site='https://paypal.ismaris.com/paypal-standard/';
+$site='https://paypal.scott-mann.net/paypal-standard/';
 if(empty($_SESSION['loggedIn'])) {
       header('Location: '.$site.'_functions/login.php');
   }
@@ -9,9 +9,9 @@ require('_include/header.html');
 ?>
 <div class="container">
         <div class="row">
-        <div class="pre_2 col_8">
+        <div class="pre_2 col_7">
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-				<h1 id="mainTitle">PayPal Payment Buttons Demo (Button Generator Tool)</h1>
+				<h1 id="mainTitle">PayPal Payments Standard</h1>
 				<div class="content">
 					<div id="section0" >
 						<div class="field" id="usernameField"><label for="CC">Username:</label><input type="text" id="CC" name="CC" disabled="disabled" size="15" value="<? echo $_SESSION['user'];?>"</input></div>
